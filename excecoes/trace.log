@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "exception.py", line 7, in <module>
+    for i, s in enumerate(file(fn)):
+IOError: [Errno 2] No such file or directory: 'temp.txt'
