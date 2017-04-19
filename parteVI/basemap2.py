@@ -12,7 +12,7 @@ mapa = Basemap(projection='ortho', lat_0=10, lon_0=-10,
 mapa. bluemarble()
 mapa. drawmapboundary()
 
-lxy = (('Rio\nde\nJaneiro', -43.11, -22.54),
+lxy = (('Gntech\nFloripa\nBrasil', -48.54, -27.59),
 	('Londres', 0.07, 50.30))
 
 #transposta

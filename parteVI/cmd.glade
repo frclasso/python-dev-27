@@ -1,0 +1,87 @@
+<?xml version= "1.0" encoding= "UTF-8" standalone= "no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.3 on Tue May 27 23:44:03 2008 -->
+<glade-interface>
+    <widget class= "GtkWindow" id="main">
+        <property name="width_request"> 380</property>
+        <property name="height_request"> 100</property>
+        <property name="visible"> True</property>
+        <property name="title" translatable= "yes"> Entre com um comando...</property>
+        <property name="resizable"> False</property>
+        <property name="modal"> True</property>
+        <property name="window_position"> GTK_WIN_POS_CENTER</property>
+        <signal name="destroy" handler="on_main_destroy"/>
+        <child>
+            <widget class="GtkFixed" id="fixed1">
+                <property name="width_request"> 380</property>
+                <property name="height_request"> 100</property>
+                <property name="visible"> True</property>
+                <child>
+                    <widget class="GtkButton" id="btn_rodar">
+                        <property name="width_request"> 100</property>
+                        <property name="height_request"> 29</property>
+                        <property name="visible"> True</property>
+                        <property name="can_focus"> True</property>
+                        <property name="receives_default"> True</property>
+                        <property name="label" translatable="yes"> _Rodar</property>
+                        <property name="use_underline"> True</property>
+                        <property name="response_id"> 0 </property>
+                        <signal name="clicked" handler="on_btn_rodar_clicked"/>
+
+            </widget>
+            <packing>
+                <property name= "x"> 167</property>
+                <property name= "y"> 61</property>
+            </packing>
+        </child>
+        <child>
+            <widget class="GtkButton" id="btn_fechar">
+                <property name="width_request"> 100</property>
+                <prope
+                    <widget class="GtkButton" id="btn_rodar">rty name="height_request"> 29</property>
+                <property name="visible"> True</property>
+                <property name="can_focus"> True</property>
+                <property name="receives_default"> True</property>
+                <property name="label" translatable="yes">_Fechar</property>
+                <property name="use_underline"> True</property>
+                <property name="response_id"> 0 </property>
+                <signal name="clicked" handler="on_btn_fechar_clicked"/>
+            </widget>
+            <packing>
+                <property name="x"> 272</property>
+                <property name="y"> 61</property>
+            </packing>
+        </child>
+        <child>
+            <widget class="GtkEntry" id="ntr_cmd">
+                <property name="width_r
+                <property name="width_request"> 100</property>equest"> 365</property>
+                <property name="height_request"> 29</property>
+                <property name="visible"> True</property>
+                <property name="can_focus"> True</property>
+            </widget>
+            <packing>
+                <property name="x"> 9 </property>
+                <property name="y"> 14</property>
+            </packing>
+        </child>
+        <child>
+            <widget class="GtkCheckButton" id="chk_shell">
+                <property name="width_request"> 136</property>
+                <property name="height_request"> 29</property>
+                <property name="visible"> True</property>
+                <property name="can_focus"> True</property>
+                <property name="label" translatable= "yes"> _Janela de texto</property>
+                <property name="use_underline"> True</property>
+                <property name="response_id"> 0 </property>
+                <property name="draw_indicator"> True</property>
+            </widget>
+            <packing>
+                <property name="x"> 11</property>
+                <property name="y"> 59</property>
+            </packing>
+        </child>
+    </widget>
+    </child>
+    </widget>
+</glade-interface>
